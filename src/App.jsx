@@ -82,6 +82,7 @@ const App = () => {
                 <TodoComputed
                     computedItemsLeft={computedItemsLeft}
                     clearCompleted={clearCompleted}
+                    shownTodos={filteredTodos()}
                 />
 
                 <TodoFilter changeFilter={changeFilter} filter={filter} />
