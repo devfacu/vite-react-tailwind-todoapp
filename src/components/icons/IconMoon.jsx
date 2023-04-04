@@ -1,4 +1,4 @@
-const IconMoon = ({ fill, ...props }) => {
+const IconMoon = ({ fill = "#FFF", ...props }) => {
     return (
         <svg
             {...props}

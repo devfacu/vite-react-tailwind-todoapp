@@ -7,7 +7,7 @@ const IconCheck = ({ ...props }) => {
             height="9"
             fill="none"
             stroke="#FFF"
-            stroke-width="2"
+            strokeWidth="2"
         >
             <path d="M1 4.304L3.696 7l6-6" />
         </svg>
